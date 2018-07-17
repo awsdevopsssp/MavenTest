@@ -1,4 +1,4 @@
-node {
+node ('centos') {
   stage ('Get SCM') {
      checkout scm
   }
